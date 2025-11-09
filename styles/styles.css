@@ -1,0 +1,97 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #111729;
+    color: white;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+#nav-var{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25vh;
+    position: sticky;
+    z-index: 10000;
+    background-image:linear-gradient(rgba(26, 30, 54, 0.7), rgba(26, 30, 54, 0.7)), url(./../resources/la-chamba-grupo.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.contenedor-navvar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedor-navvar a img{
+    width: 175px;
+    height: 150px;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.barra li{
+    list-style-type: none;
+}
+
+.barra li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: medium;
+}
+
+.barra li a:hover{
+    color: #F2884B;
+    transition: 0.3s;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+}
+
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.titulo-banner h1{
+    font-size: 3.5rem;
+}
+
+.foto-banner{
+    padding-right: 100px;
+}
+
+.foto-banner img{
+    width: 500px;
+    height: auto;
+}
