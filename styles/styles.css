@@ -279,3 +279,9 @@ body{
     height: 20px;
     margin-right: 10px;
 }
+
+.linea{
+    height: 2px;
+    width: 100%;
+    background-color: #F26B83;
+}
