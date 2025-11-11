@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -86,22 +86,63 @@
             <div class="linea"></div>
             <div class="nuestros-talleres">
                 <h2>Nuestros talleres y eventos</h2>
-                <div class="fotos-eventos">
-                    <img src="#" alt="foto-evento">
-                    <img src="#" alt="foto-evento">
-                    <img src="#" alt="foto-evento">
+                <div id="eventCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row row-cols-1 row-cols-md-3 g-4 flex-nowrap">
+                                <div class="col">
+                                    <div class="card event-card">
+                                        <img src="./resources/foto-1.jpeg" class="card-img-top" alt="TEDx Lima">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card event-card">
+                                        <img src="./resources/foto-2.png" class="card-img-top" alt="Ikigai">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card event-card">
+                                        <img src="./resources/foto-3.jpeg" class="card-img-top" alt="Educación Financiera">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#eventCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
             <div class="comunidad">
                 <div class="cont-redes">
-                    <div class="img-comunidad"></div>
-                    <div class="info-comunidad"></div>
-                    <div class="btn-comunidad"></div>
+                    <div class="img-comunidad">
+                        <img src="./resources/Coworki-logo.webp" alt="logo">
+                    </div>
+                    <div class="info-comunidad">
+                        <h3>¡Síguenos en redes!</h3>
+                        <p>@lachambaoficial</p>
+                    </div>
+                    <div class="btn-comunidad">
+                        <a href="#">TIKTOK</a>
+                        <a href="#">INSTAGRAM</a>
+                    </div>
                 </div>
                 <div class="cont-wsp">
-                    <div class="cont-img-wsp"></div>
-                    <div class="text-wsp"></div>
-                    <div class="btn-wsp"></div>
+                    <div class="cont-img-wsp">
+                        <img src="./resources/la-chamba-grupo.png" alt="foto-grupo">
+                    </div>
+                    <div class="text-wsp">
+                        <h3>¡Unete a la comunidad!</h3>
+                        <p>Unete al grupo aqui</p>
+                    </div>
+                    <div class="btn-wsp">
+                        <a href="#">WHATSAPP</a>
+                    </div>
                 </div>
             </div>
             <div class="contacto">
@@ -146,5 +187,6 @@
         </div>
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

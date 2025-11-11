@@ -285,3 +285,71 @@ body{
     width: 100%;
     background-color: #F26B83;
 }
+
+.nuestros-talleres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    gap: 30px;
+}
+
+.comunidad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F26B83;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.cont-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-comunidad, .text-wsp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 15px;
+    text-align: center;
+}
+
+.img-comunidad img{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.cont-img-wsp img{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.btn-comunidad a, .btn-wsp a{
+    text-decoration: none;
+    background-color: #111729;
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    border-radius: 7px;
+}
+
+.btn-comunidad, .btn-wsp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.btn-comunidad a{
+    width: 150px;
+    text-align: center;
+}
