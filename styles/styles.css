@@ -24,7 +24,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 25vh;
     position: sticky;
     z-index: 10000;
     background-image:linear-gradient(rgba(26, 30, 54, 0.7), rgba(26, 30, 54, 0.7)), url(./../resources/la-chamba-grupo.png);
@@ -42,7 +41,7 @@ body{
 }
 
 .contenedor-navvar a img{
-    width: 175px;
+    width: 195px;
     height: 150px;
 }
 
@@ -82,6 +81,7 @@ body{
     flex-direction: column;
     gap: 30px;
     padding-bottom: 70px;
+    padding-left: 20px;
 }
 
 
@@ -153,7 +153,7 @@ body{
     flex-direction: column;
 }
 
-.agencia-de-coworki{
+#agencia-de-coworki{
     display: flex;
     flex-direction: row;
     padding-left: 20px;
@@ -164,7 +164,7 @@ body{
     background-color: #9857F2;
     color: #111729;
 }
-.agencia-de-coworki .video-yt{
+#agencia-de-coworki .video-yt{
     display: flex;
     flex-direction: column;
 }
@@ -182,7 +182,7 @@ body{
     padding-top: 20px;
 }
 
-.talleres-eventos{
+#talleres-eventos{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,7 +192,7 @@ body{
     gap: 50px;
 }
 
-.talleres-eventos .cont-1{
+#talleres-eventos .cont-1{
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -295,7 +295,7 @@ body{
     gap: 30px;
 }
 
-.comunidad{
+#comunidad{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -315,6 +315,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    padding-bottom: 15px;
     gap: 15px;
     text-align: center;
 }
@@ -338,6 +339,7 @@ body{
     color: rgb(255, 255, 255);
     padding: 15px 25px;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .btn-comunidad, .btn-wsp{
@@ -350,6 +352,162 @@ body{
 }
 
 .btn-comunidad a{
-    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
     text-align: center;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+#inputName, #inputEmail{
+    min-height: 50px;
+    border-radius: 10px;
+}
+
+#mensajeInput{
+    min-height: 180px;
+    border-radius: 10px;
+}
+
+#boton-enviar{
+    width: 150px;
+    height: 50px;
+    background-color: #F27166;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: white;
+}
+#boton-enviar:hover{
+    background-color: #F2884B;
+    transition: 0.3s;
+}
+
+.linea-2{
+    height: 2px;
+    width: 100%;
+    background-color: #F26B83;
+}
+
+footer{
+    height: auto;
+}
+
+.redes-informacion{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60vh;
+    align-items: flex-start;
+}
+
+.redes-sociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.logo-cowor img{
+    width: 280px;
+    height: 225px;
+}
+
+.btn-redes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.btn-redes a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2884B;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.btn-redes a:hover{
+    background-color: #F27166;
+    transition: 0.3s;
+}
+
+.btn-redes a img{
+    width: 30px;
+    height: 30px;
+}
+
+.enlaces-cont, .contacto-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.enlaces-cont ul, .contacto-cont ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0px;
+    gap: 10px;
+}
+
+.enlaces-cont ul li, .contacto-cont ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.enlaces-cont ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.contacto-cont ul li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contacto-cont ul li a img{
+    width: 130px;
+    height: 80px;
+}
+
+.text-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    gap: 10px;
+}
+
+.icon-instagram, .icon-tiktok, .icon-whatsapp{
+    fill: #ffffff;
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
 }
