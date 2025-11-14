@@ -379,11 +379,13 @@ form{
 #inputName, #inputEmail{
     min-height: 50px;
     border-radius: 10px;
+    width: 100%;
 }
 
 #mensajeInput{
     min-height: 180px;
     border-radius: 10px;
+    width: 100%;
 }
 
 #boton-enviar{
