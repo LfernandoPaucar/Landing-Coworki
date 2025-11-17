@@ -1,11 +1,29 @@
 *{
-    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
+}
+
+h1, h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 html{
@@ -20,6 +38,11 @@ body{
     height: 100vh;
 }
 
+main{
+    display: grid;
+    grid-template-rows: repeat(12, auto);
+}
+
 #nav-var{
     display: flex;
     flex-direction: column;
@@ -31,13 +54,15 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     height: auto;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .contenedor-navvar{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .contenedor-navvar a img{
@@ -81,7 +106,6 @@ body{
     flex-direction: column;
     gap: 30px;
     padding-bottom: 70px;
-    padding-left: 20px;
 }
 
 
@@ -148,7 +172,7 @@ body{
     height: 25px;
 }
 
-.container-prirncipal{
+#container-principal{
     display: flex;
     flex-direction: column;
 }
@@ -156,8 +180,8 @@ body{
 #agencia-de-coworki{
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-bottom: 100px;
     padding-top: 100px;
     gap: 30px;
@@ -182,6 +206,28 @@ body{
     padding-top: 20px;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info a{
+    text-decoration: none;
+    background-color: #F27166;
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    border-radius: 7px;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.info a:hover{
+    background-color: #F2884B;
+    transition: 0.3s;
+}
+
 #talleres-eventos{
     display: flex;
     flex-direction: column;
@@ -190,6 +236,8 @@ body{
     padding-top: 120px;
     padding-bottom: 120px;
     gap: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 #talleres-eventos .cont-1{
@@ -292,6 +340,8 @@ body{
     align-items: center;
     padding-top: 110px;
     padding-bottom: 110px;
+    padding-left: 60px;
+    padding-right: 60px;
     gap: 30px;
 }
 
@@ -302,6 +352,8 @@ body{
     background-color: #F26B83;
     padding-top: 110px;
     padding-bottom: 110px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .cont-redes{
@@ -367,6 +419,8 @@ body{
     padding-top: 110px;
     padding-bottom: 110px;
     gap: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 form{
@@ -398,6 +452,7 @@ form{
     cursor: pointer;
     color: white;
 }
+
 #boton-enviar:hover{
     background-color: #F2884B;
     transition: 0.3s;
@@ -411,6 +466,8 @@ form{
 
 footer{
     height: auto;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .redes-informacion{
