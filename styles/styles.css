@@ -66,8 +66,8 @@ main{
 }
 
 .contenedor-navvar a img{
-    width: 195px;
-    height: 150px;
+    width: 160px;
+    height: 155px;
 }
 
 .barra{
@@ -86,6 +86,7 @@ main{
     text-decoration: none;
     color: #FFFFFF;
     font-size: medium;
+    font-family: 'Poppins', sans-serif;
 }
 
 .barra li a:hover{
@@ -121,8 +122,9 @@ main{
 }
 
 .foto-banner img{
-    width: 550px;
-    height: 500px;
+    width: 470px;
+    height: 490px;
+    object-fit: cover;
 }
 
 .boton-taller button{
@@ -259,7 +261,6 @@ main{
     align-items: center;
     background-color: #1E1E1E;
     border-radius: 15px;
-    margin: 15px;
     padding: 15px;
     width: 100%;
 }
@@ -488,8 +489,8 @@ footer{
 
 
 .logo-cowor img{
-    width: 280px;
-    height: 225px;
+    width: 220px;
+    height: 220px;
 }
 
 .btn-redes{
@@ -542,6 +543,12 @@ footer{
 .enlaces-cont ul li a{
     text-decoration: none;
     color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.enlaces-cont ul li a:hover{
+    color: #F2884B;
+    transition: 0.3s;
 }
 
 .contacto-cont ul li img{
